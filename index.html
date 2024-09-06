@@ -3,34 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Toolbox</title>
+    <title>Tool Hub</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 
-    <!-- Dark mode switch -->
-    <div class="theme-switch" id="theme-switch">
-        <input type="checkbox" id="theme-toggle">
-        <label for="theme-toggle">🌞</label>
-    </div>
+    <header>
+        <h1>Tool Hub</h1>
+        <button id="theme-toggle">Dark Mode</button>
+    </header>
 
-    <!-- Search Bar -->
-    <div class="search-container">
-        <input type="text" id="search-bar" placeholder="Search for tools..." oninput="filterTools()">
-    </div>
+    <section class="search-section">
+        <input type="text" id="search-bar" placeholder="Search for a tool...">
+    </section>
 
-    <!-- Tools Section -->
-    <div class="tools-container" id="tools-container">
+    <section class="tools-section">
         <div class="tool-card">
             <img src="assets/images/modrinth-converter.jpg" alt="Modrinth Tool">
             <h3>Modrinth Zip to mrpack Converter</h3>
-            <a href="converter.html">Go to Tool</a>
+            <a href="card/mrpack-to-zip/index.html">Go to Tool</a>
         </div>
-        <!-- Add more tools here as more are created -->
-    </div>
+        <!-- Add more tool cards here -->
+    </section>
 
     <script src="scripts/main.js"></script>
 </body>
 </html>
-
