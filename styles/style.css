@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0;
+    padding: 0;
+}
+
+.light-mode {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.search-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#search-bar {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.tools-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.tool-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    width: 200px;
+}
+
+.tool-card img {
+    width: 100px;
+    height: 100px;
+}
+
+.tool-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.theme-switch {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.theme-switch label {
+    cursor: pointer;
+}
+
+#theme-toggle {
+    display: none;
+}
